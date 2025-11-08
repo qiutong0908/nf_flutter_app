@@ -1,0 +1,46 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_pytorch_lite (0.0.1):
+    - Flutter
+    - LibTorch-Lite (~> 1.13.0.1)
+  - image_picker_ios (0.0.1):
+    - Flutter
+  - LibTorch-Lite (1.13.0.1):
+    - LibTorch-Lite/Core (= 1.13.0.1)
+  - LibTorch-Lite/Core (1.13.0.1):
+    - LibTorch-Lite/Torch
+  - LibTorch-Lite/Torch (1.13.0.1)
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_pytorch_lite (from `.symlinks/plugins/flutter_pytorch_lite/ios`)
+  - image_picker_ios (from `.symlinks/plugins/image_picker_ios/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+
+SPEC REPOS:
+  trunk:
+    - LibTorch-Lite
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_pytorch_lite:
+    :path: ".symlinks/plugins/flutter_pytorch_lite/ios"
+  image_picker_ios:
+    :path: ".symlinks/plugins/image_picker_ios/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  flutter_pytorch_lite: b2b644f71d4c258c9f2c21becb618812b03117fc
+  image_picker_ios: 7fe1ff8e34c1790d6fff70a32484959f563a928a
+  LibTorch-Lite: dd01cdefa487b3b1d41f1c8a4495f5e41c79fd80
+  path_provider_foundation: 080d55be775b7414fd5a5ef3ac137b97b097e564
+
+PODFILE CHECKSUM: 20e260c9bb3f61194c661a4ba028da86e4f3ed96
+
+COCOAPODS: 1.16.2
