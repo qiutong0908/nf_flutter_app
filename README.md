@@ -19,17 +19,17 @@ This app performs local inference using a quantized **EfficientNet-B0** model ex
 
 ```
 lib/
-main.dart
-inference_service.dart # Core TFLite inference logic
-ui/
-home_page.dart # Main interface
-result_card.dart # Displays classification output
-utils/
-image_utils.dart # Image capture and selection helpers
+├── main.dart
+├── inference_service.dart # Core TFLite inference logic
+├── ui/
+│ ├── home_page.dart # Main interface
+│ └── result_card.dart # Displays classification output
+└── utils/
+└── image_utils.dart # Image capture & selection helpers
 assets/
-labels.txt # NF / Non-NF / Other
+└── labels.txt # NF / Non-NF / Other
 models/
-efficientnet_nf.tflite # Quantized CNN model
+└── efficientnet_nf.tflite # Quantized CNN model
 pubspec.yaml
 ```
 
