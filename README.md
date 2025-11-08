@@ -17,7 +17,7 @@ This app performs local inference using a quantized **EfficientNet-B0** model ex
 
 ## Folder Structure
 
-、、、
+'''
 lib/
 main.dart
 inference_service.dart # Core TFLite inference logic
@@ -31,7 +31,7 @@ labels.txt # NF / Non-NF / Other
 models/
 efficientnet_nf.tflite # Quantized CNN model
 pubspec.yaml
-、、、
+'''
 
 
 ---
